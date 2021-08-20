@@ -1,0 +1,34 @@
+*{
+
+	margin: 0px; padding-left: 0px;
+ }
+
+body{background-color:#EFEFEF;}
+
+#menu{height: 74px; width: 100%; top: 0px; left: 0px; background-color: #FFFFFF; position: fixed; z-index: 1;}
+#logo{width:400px; height:74px; margin-left: 80px; background-image:url(../images/logo.png); float:left;}
+#menukategori{height: 72px; width: 300px;float: left; margin-top: 34px; margin-left: 40px; margin-right: 100px; color: #CCCCCC;}
+#menuyazi{height: 72px; width: 100px; float: left; margin-right: 30px; font-family: "Courier New",Courier,mono;}
+#menuyazi a{text-decoration: none; color: #CCCCCC;}
+#menuyazi a:hover{color: #FF6600;}
+
+#footer{width: 100%; height: 20px; float:left; background-color: #918b8a; text-align: center; font-family: "Courier New",Courier,mono;}
+
+#banner{width: 100%; height: 520px; background-image: url(../images/banner.jpg); left: 0px; position: absolute; margin-top:64px;}
+#iconlar{height: 160px; width: 90%; margin: auto; float: left; position: absolute; margin-top: 620px; padding-left: 100px;}
+#iconresmi{width: 100px; height: 110px; background-image: url(../images/biyolojiconu.png); margin-right: 60px; float: left; margin-left: 220px;}
+#iconresmi1{width: 100px;height: 110px; background-image:url(../images/fizikiconu.png); float: left; margin-right: 60px; }
+#iconresmi2{width: 100px;height: 110px; background-image:url(../images/matematikiconu.png); float: left; margin-right: 60px; }
+#iconresmi3{width: 100px;height: 110px; background-image:url(../images/geometriconu.png); float: left; margin-right: 60px; }
+#iconresmi4{width: 100px;height: 110px; background-image:url(../images/kimyaiconu.png); float: left; margin-right: 60px; }
+
+#iconresmi:hover{background-image: url(../images/biyolojiconu1.png);}
+#iconresmi1:hover{background-image: url(../images/fizikiconu1.png);}
+#iconresmi2:hover{background-image: url(../images/matematikiconu1.png);}
+#iconresmi3:hover{background-image: url(../images/geometriconu1.png);}
+#iconresmi4:hover{background-image: url(../images/kimyaiconu1.png);}
+
+.videobolumu{height: 250px; width: 300px; background-color: #FFFFFF; float: left;margin: auto; font-family: Copperplate Gothic Light; margin-left: 70px; color:#000000; margin-bottom: 20px;}
+.videosimge{height: 25px; width: 25px; background-image: url(../images/videosimge.png);float: left; margin-left: 20px; margin-top:10px; margin-right:10px;}
+.videoyazi{height: auto; width:auto; margin-top: 15px; }
+.videobolumu:hover{background-color: #FF9933}

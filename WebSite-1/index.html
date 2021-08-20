@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Eğitim Sitem</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="Short Icon" href="images/videoo2.jpg" type="image/x">
+
+	<meta name="author" content="Selva Nur Boztaş ,sorcoz@gmail.com"/>
+	<meta name="abstract" content="Lise seviyesindeki tüm derslere ait içerikleri bulunabileceğiniz bir platform."/> 
+	<meta name="content-language" content="tr"/>
+	<meta  name="content-type" content="text/html" charset="utf-8 "/>
+	<meta name="Copyright" content="© 2019 Design By Selva Nur Boztaş"/>
+	<meta name="designer" content="Selva Nur Boztaş - sorcoz eğitim platformu"/>
+	<meta name="keywords" content="ders,kimya,fizik,biyoloji,matematik,sorcoz,canlılar,manyetizma"/>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	
+	<script>
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 2000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+</script>
+
+</head>
+
+<body>
+	<section id="anasayfa"> </section>
+	<div id="menu">
+		<div id="logo"></div>
+		<div id="menukategori">
+			<div id="menuyazi"><a href="#anasayfa"> ANASAYFA </a></div>
+			<div id="menuyazi"><a href="#dersler"> DERSLER </a></div>
+		</div>
+	</div>
+
+	<div id="banner"></div> <br>	
+	<div id="iconlar"><center>	<img src="images/dersler.png" ></center><section id="dersler"></section>
+		<a href="biyoloji.html" target="sayfalar">	<div id="iconresmi"></div></a>
+		<a href="fizik.html" target="sayfalar">	<div id="iconresmi1"></div></a>
+		<a href="matematik.html" target="sayfalar">	<div id="iconresmi2"></div></a>
+		<a href="geometri.html" target="sayfalar">	<div id="iconresmi3"></div></a>
+		<a href="kimya.html" target="sayfalar">	<div id="iconresmi4"></div></a>
+	</div>
+
+	<IFRAME name="sayfalar" src="biyoloji.html" width="1200" height="850" scrolling="yes" frameborder="0" style="position: absolute; margin-top: 785px; margin-left: 100px;"></IFRAME>
+
+	<div id="footer">Copyright © 2019 Design By Selva Nur Boztaş</div>
+
+</body>
+</html>
